@@ -1,3 +1,6 @@
+from funciones.gestores.artistas import agregar_artista
+
+
 while True:
     print("""
           Gestor de canciones:
@@ -10,7 +13,7 @@ while True:
     try:
         usuario = int(input("Ingresa una opcion: "))
         if usuario == 1:
-            print("Proxima funcionalidad")
+            agregar_artista()
         elif usuario == 2:
             print("Proxima funcionalidad")
         elif usuario == 3:
