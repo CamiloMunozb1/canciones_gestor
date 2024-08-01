@@ -1,4 +1,5 @@
 from funciones.gestores.artistas import agregar_artista
+from funciones.gestores.canciones import agregar_cancion
 
 
 while True:
@@ -15,7 +16,7 @@ while True:
         if usuario == 1:
             agregar_artista()
         elif usuario == 2:
-            print("Proxima funcionalidad")
+            agregar_cancion()
         elif usuario == 3:
             print("Proxima funcionalidad")
         elif usuario == 4:
