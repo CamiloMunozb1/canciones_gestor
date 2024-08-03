@@ -1,6 +1,7 @@
 from funciones.gestores.artistas import agregar_artista
 from funciones.gestores.canciones import agregar_cancion
 from funciones.gestores.eliminar_cancion import eliminar_cancion
+from funciones.gestores.mostrar import mostrar_canciones
 
 while True:
     print("""
@@ -20,7 +21,7 @@ while True:
         elif usuario == 3:
             eliminar_cancion()
         elif usuario == 4:
-            print("Proxima funcionalidad")
+            mostrar_canciones()
         elif usuario == 5:
             print("Gracias por gestionar tus canciones.")
             break
